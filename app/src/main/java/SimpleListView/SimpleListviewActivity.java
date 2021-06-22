@@ -6,8 +6,18 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 import com.example.neweramay2021_project2.R;
+import org.jetbrains.annotations.NotNull;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
+import java.io.IOException;
 import java.util.ArrayList;
+
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 
 public class SimpleListviewActivity extends AppCompatActivity {
 
@@ -28,6 +38,7 @@ public class SimpleListviewActivity extends AppCompatActivity {
     }
 
     private void populateArrayList(){
+
         arraydata.add("Mango");
         arraydata.add("Rambutan");
         arraydata.add("Pineapple");

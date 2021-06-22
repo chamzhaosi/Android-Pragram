@@ -3,6 +3,7 @@
     package="com.example.neweramay2021_project2">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,15 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NeweraMay2021_project2">
-        <activity android:name="Tutorial04.ContactListviewActivity">
+        <activity android:name="SimpleRecycleviewJSON.Recycleview_JSON_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="SimpleRecyclerview.SimpleRecyclerview"></activity>
-        <activity android:name="SimpleListView.SimpleListviewActivity" />
+        <activity android:name="Tutorial04.ContactListviewActivity"></activity>
+        <activity android:name="SimpleRecyclerview.SimpleRecyclerview" />
+        <activity android:name="SimpleListView.SimpleListviewActivity"></activity>
         <activity android:name=".CoffeOrderActivity" />
         <activity android:name=".infoActivity" />
         <activity android:name=".MainActivity" />
