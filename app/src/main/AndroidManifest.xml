@@ -12,16 +12,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NeweraMay2021_project2">
-        <activity android:name="SimpleRecycleviewJSON.Recycleview_JSON_Activity">
+        <activity android:name=".StudentsListview.StudentListviewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="Tutorial04.ContactListviewActivity"></activity>
+        <activity android:name="SimpleRecycleviewJSON.Recycleview_JSON_Activity"></activity>
+        <activity android:name="Tutorial04.ContactListviewActivity" />
         <activity android:name="SimpleRecyclerview.SimpleRecyclerview" />
-        <activity android:name="SimpleListView.SimpleListviewActivity"></activity>
+        <activity android:name="SimpleListView.SimpleListviewActivity" />
         <activity android:name=".CoffeOrderActivity" />
         <activity android:name=".infoActivity" />
         <activity android:name=".MainActivity" />
